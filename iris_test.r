@@ -1,6 +1,7 @@
 # This is for git training, I will use R 
 
 library(dplyr)
+library(ggplot2)
 
 head(iris)
 colnames(iris)
