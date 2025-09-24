@@ -8,3 +8,7 @@ colnames(iris)
 iris_sub <- iris |>
 group_by(Species) |>
 summarise(mean(Petal.Length))
+
+iris_sub_sepal  <- iris |>
+group_by(Species) |>
+summarise(mean(Sepal.Width))
